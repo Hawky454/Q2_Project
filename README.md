@@ -67,4 +67,5 @@ Input form for pipes:
 I'll use some basic css boilerplate like Skeleton.
 
 # Wireframe
-![WireframeQ1](/Users/davidmiller/Projects/q2/Q2_Project/public/images/Cellarpage.png)
+![WireframeQ2](https://github.com/Hawky454/Q2_Project/blob/master/public/images/Homepage.png)
+![WireframeQ2](https://github.com/Hawky454/Q2_Project/blob/master/public/images/Cellarpage.png)
