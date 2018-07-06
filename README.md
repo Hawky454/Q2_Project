@@ -66,6 +66,28 @@ Input form for pipes:
 
 I'll use some basic css boilerplate like Skeleton.
 
+#User Stories:
+As a user, I need to be able to identify the company (style/brand/logo)
+As a user, I need to be able to list tobacco brands
+As a user, I need to be able to delete existing tobacco brands
+As a user, I need to be able to edit existing tobacco entries
+As a user, I need to be able to link to a specific tobacco brand
+As a user, I need to be able to list all pipes
+As a user, I need to be able to delete existing pipe entries
+As a user, I need to be able to edit existing pipe entries
+As a user, I need to be able to add new pipes
+As a user, I need to be able to navigate between pipes and tobaccos
+As a user, I need to be able to add a new tobacco entry
+As a user, I need to be able to filter/sort tobaccos by brand,age or Rating
+As a user, I need to be able to limit the number of tobacco entries I receive at a time
+As a user, I need to be able to limit the number of pipe entries I receive at a time
+As a user, I need to be able to search for tobaccos by house, brand or style
+As a user, I need to be able to search for pipes
+As a user, I need to be able to search for open (current use) tobaccos
+As a user, I need to be able to see the total number of cellared tobaccos
+As a user, I need to be able to see the total number of opened tobaccos
+As a user, I need to be able to see the total number of pipes
 # Wireframe
 ![WireframeQ2](https://github.com/Hawky454/Q2_Project/blob/master/public/images/Homepage.png)
+
 ![WireframeQ2](https://github.com/Hawky454/Q2_Project/blob/master/public/images/Cellarpage.png)
