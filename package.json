@@ -1,0 +1,27 @@
+{
+  "name": "Q2_Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hawky454/Q2_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hawky454/Q2_Project/issues"
+  },
+  "homepage": "https://github.com/Hawky454/Q2_Project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "knex": "^0.15.0",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.3"
+  }
+}

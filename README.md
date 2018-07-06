@@ -1,7 +1,7 @@
 # Q2_Project
 #The Tobacco Cellar.
 
-* A project description
+
 I would like to create an app that keeps track of users pipe and tobacco collections.  Believe it or not there is a decent size community of pipe smokers that collect a large quantity of high grade pipes and tobacco. Aged pipe tobacco improves with age and the value greatly increases, the older the better.  This app would allow users to quickly and easily keep track of their tobacco that they have opened for current use and of the tobacco they have sealed and stored for long term storage.  I would also like to have the option for users to keep track of their personal pipe collection.
 
 * Who uses it?
