@@ -3,7 +3,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/tobacco-app'
+    connection: 'postgres://localhost/tobac-app'
   },
 
   staging: {

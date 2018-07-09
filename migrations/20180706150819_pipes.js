@@ -1,7 +1,8 @@
-
+//pipes table
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('pipes', function(table) {
     table.increments();
+    table.string('image');
     table.string('brand');
     table.string('pipemaker');
     table.date('purchased');

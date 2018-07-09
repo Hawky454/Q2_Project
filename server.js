@@ -13,18 +13,17 @@ let morgan = require('morgan');
 
 let config = require(knexPath)[env];
 let knex = require('knex')(config);
-// let assassins = require('./routes/assassinroutes.js');
-// let contracts = require('./routes/contractroutes.js');
 
-app.disable('x-powered-by');
+
+// app.disable('x-powered-by');
 app.use(morgan('short'));
 
 app.use(bodyParser.json());
 app.use(express.static(path.join('public')));
 
 
-// app.use(assassins);
-// app.use(contracts);
+// app.use(route1);
+// app.use(route2);
 
 
 app.use((_req, res) => {

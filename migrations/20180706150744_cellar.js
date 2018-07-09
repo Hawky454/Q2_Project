@@ -2,9 +2,10 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('cellar', function(table) {
     table.increments();
+    table.string('image');
     table.string('brand');
     table.string('blend');
-    table.integer('weight');
+    table.string('weight');
     table.date('purchased');
     table.string('age');
     table.integer('price');

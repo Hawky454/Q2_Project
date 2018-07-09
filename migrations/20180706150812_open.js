@@ -2,6 +2,7 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('opened', function(table) {
     table.increments();
+    table.string('image');
     table.string('brand');
     table.string('blend');
     table.integer('weight');
