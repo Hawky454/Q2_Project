@@ -1,11 +1,11 @@
 //opened tobacco table
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable('opened', function(table) {
+  return knex.schema.createTable('open', function(table) {
     table.increments();
     table.string('image');
     table.string('brand');
     table.string('blend');
-    table.integer('weight');
+    table.string('weight');
     table.date('purchased');
     table.string('age');
     table.integer('price');
@@ -20,5 +20,5 @@ exports.up = function(knex, Promise) {
 
 
 exports.down = function(knex, Promise) {
-  return knex.schema.dropTable('opened');
+  return knex.schema.dropTable('open');
 };
