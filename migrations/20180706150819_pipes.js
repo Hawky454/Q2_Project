@@ -5,7 +5,6 @@ exports.up = function(knex, Promise) {
     table.string('image');
     table.string('brand');
     table.string('pipemaker');
-    table.date('purchased');
     table.integer('year');
     table.integer('price');
     table.boolean('smooth').notNullable().defaultTo(false);
