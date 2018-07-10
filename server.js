@@ -13,6 +13,7 @@ let morgan = require('morgan');
 
 let config = require(knexPath)[env];
 let knex = require('knex')(config);
+let cellar = require('./routes/cellarroute.js');
 
 
 // app.disable('x-powered-by');
@@ -22,7 +23,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join('public')));
 
 
-// app.use(route1);
+app.use(cellar);
 // app.use(route2);
 
 
