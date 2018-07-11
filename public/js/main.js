@@ -24,15 +24,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
       column4.setAttribute('class', 'column4');
 
       //brand
-      let cellarBrand = document.createElement('h2');
+      let cellarBrand = document.createElement('h4');
       cellarBrand.innerText = `Brand: ${cellarObject.brand}`;
       console.log(cellarBrand);
       //blend
-      let cellarBlend = document.createElement('span');
+      let cellarBlend = document.createElement('h4');
       cellarBlend.innerText = `Blend: ${cellarObject.blend}`;
       console.log(cellarBlend);
       //age
-      let cellarAge = document.createElement('span');
+      let cellarAge = document.createElement('h4');
       cellarAge.innerText = `Age: ${cellarObject.age}`;
       console.log(cellarAge);
       //image
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       cellarImage.setAttribute('src', cellarObject.image);
       console.log(cellarImage);
       //availability
-      let cellarAvailability = document.createElement('span');
+      let cellarAvailability = document.createElement('h4');
       cellarAvailability.innerText = `Available: ${cellarObject.isAvailable}`;
       if(cellarObject.isAvailable === true) {
         cellarAvailability.innerText = 'Available: Yes!';
@@ -49,31 +49,43 @@ document.addEventListener("DOMContentLoaded", (event) => {
       }
       console.log(cellarAvailability);
       //price
-      let cellarPrice = document.createElement('span');
+      let cellarPrice = document.createElement('h4');
       cellarPrice.innerText = `Price: $${cellarObject.price.toFixed(2)}`;
       console.log(cellarPrice);
       //purchased
-      let cellarPurchase = document.createElement('span');
-      cellarPurchase.innerText = `DoP: ${cellarObject.purchased}`;
+      let cellarPurchase = document.createElement('h4');
+      let date = cellarObject.purchased.split('T')[0];
+      cellarPurchase.innerText = `Purchased: ${date}`;
       console.log(cellarPurchase);
       //source
-      let cellarSource = document.createElement('span');
+      let cellarSource = document.createElement('h4');
       cellarSource.innerText = `Source: ${cellarObject.source}`;
       console.log(cellarSource);
       //weight
-      let cellarWeight = document.createElement('span');
+      let cellarWeight = document.createElement('h4');
       cellarWeight.innerText = `Weight: ${cellarObject.weight}`;
       console.log(cellarWeight);
       //rating
-      let cellarRating = document.createElement('span');
+      let cellarRating = document.createElement('h4');
       cellarRating.innerText = `Rating: ${cellarObject.rating} out of 5 stars`;
       console.log(cellarRating);
 
+      column1.appendChild(cellarImage);
+      column1.appendChild(cellarBrand);
+      column1.appendChild(cellarBlend);
+      column1.appendChild(cellarPurchase);
+      column1.appendChild(cellarAge);
+      column1.appendChild(cellarWeight);
 
+      column2.appendChild(cellarAvailability);
+      column2.appendChild(cellarPrice);
+      column2.appendChild(cellarSource);
+      column2.appendChild(cellarRating);
 
+      cellarCardChild.appendChild(column1);
+      cellarCardChild.appendChild(column2);
 
-
-
+      cellarCard.appendChild(cellarCardChild);
        }
     });
 });

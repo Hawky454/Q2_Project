@@ -9,23 +9,32 @@ let bodyParser = require('body-parser');
 let port = process.env.PORT || 8000;
 let env = process.env.NODE_ENV || 'development';
 let morgan = require('morgan');
-
+let add = require('./routes/addroute');
 
 let config = require(knexPath)[env];
 let knex = require('knex')(config);
 let cellar = require('./routes/cellarroute.js');
 let open = require('./routes/openroute.js');
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+
 app.disable('x-powered-by');
 app.use(morgan('short'));
 
 app.use(bodyParser.json());
 app.use(express.static(path.join('public')));
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 
+app.get('/', (req, res, next) => {
+    res.render('add');
+});
 
 app.use(cellar);
 app.use(open);
-
+app.use(add);
 
 app.use((_req, res) => {
     res.sendStatus(404);
