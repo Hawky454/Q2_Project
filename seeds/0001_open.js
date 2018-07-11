@@ -5,7 +5,7 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('open').insert([{
-        image: '/Users/davidmiller/Projects/q2/Q2_Project/node_modules/knex/lib/migrate/index.js',
+        image: 'https://c647068.ssl.cf2.rackcdn.com/products/003-023-0002.jpg',
         brand: 'Murray\'s',
         blend: 'Erinmore Flake',
         weight: '1.76oz',

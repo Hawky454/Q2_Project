@@ -14,7 +14,7 @@ let morgan = require('morgan');
 let config = require(knexPath)[env];
 let knex = require('knex')(config);
 let cellar = require('./routes/cellarroute.js');
-
+let open = require('./routes/openroute.js');
 
 app.disable('x-powered-by');
 app.use(morgan('short'));
@@ -24,7 +24,7 @@ app.use(express.static(path.join('public')));
 
 
 app.use(cellar);
-// app.use(route2);
+app.use(open);
 
 
 app.use((_req, res) => {
