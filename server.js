@@ -16,7 +16,7 @@ let knex = require('knex')(config);
 let cellar = require('./routes/cellarroute.js');
 
 
-// app.disable('x-powered-by');
+app.disable('x-powered-by');
 app.use(morgan('short'));
 
 app.use(bodyParser.json());
