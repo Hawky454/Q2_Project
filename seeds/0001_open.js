@@ -107,6 +107,7 @@ exports.seed = function(knex, Promise) {
         weight: '8.8oz',
         purchased: '08-15-17',
         age: '11months',
+        price: 26,
         isAvailable: true,
         source: 'SmokingPipes',
         rating: 3.5
@@ -118,6 +119,7 @@ exports.seed = function(knex, Promise) {
         weight: '3.5oz',
         purchased: '08-15-17',
         age: '11months',
+        price: 10,
         isAvailable: true,
         source: 'Esterval\'s Pipe House',
         rating: 4
