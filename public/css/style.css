@@ -1,6 +1,6 @@
 /* font-family: 'Rajdhani', sans-serif; */
+
 * {
-  border-radius: 5px;
   font-family: 'Rajdhani', sans-serif;
 }
 
@@ -29,7 +29,6 @@ body {
   opacity: 0.65;
 }
 
-
 .cellar-title {
   width: 380px;
   margin-left: 18px;
@@ -37,6 +36,7 @@ body {
 }
 
 .nav-bar {
+  border: 1px solid white;
   float: right;
   width: 950px;
   padding-top: 20px;
@@ -59,11 +59,6 @@ button {
 
 button:focus {
   outline: 0;
-}
-
-.log-in {
-  margin-right: 118px;
-  float: right;
 }
 
 .sign-up {
@@ -93,9 +88,11 @@ footer {
 }
 
 .home-email {
-  background-color: #06010b;
+  background-color: #f3f3f3;
   width: 315px;
-  color: white;
+  height: 40px;
+  color: black;
+  border-radius: 5px;
 }
 
 .home-btn {
@@ -124,8 +121,9 @@ img {
   border: 3px solid white;
   margin-top: 50px;
   margin-left: 20%;
-  background-color: #403a2f;
-  /*like #403a2f & #2d180c*/
+  background-color: #534335;
+  border-radius: 10px;
+  /* like #403a2f & #2d180c* & #534335 #483557 */
 }
 
 .column1 {
@@ -134,6 +132,37 @@ img {
 }
 
 .column2 {
-width: 305px;
-padding-top: 181px;
+  width: 305px;
+  padding-top: 181px;
+}
+
+.or {
+  width: 200px;
+  height: 60px;
+  margin-top: 70px;
+  margin-left: 42%;
+  text-align: -webkit-center;
+}
+/* h2 on sign in card */
+.sign-in {
+  padding-left: 217px;
+}
+/*h2 sign up*/
+.sign-up-heading {
+  width: 200px;
+  text-align: -webkit-center;
+  margin-left: 170px;
+  margin-bottom: 50px;
+}
+
+.sign-in-card {
+  width: 700px;
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-top: 75px;
+  margin-left: 25%;
+  background-color: black;
+  font-weight: bolder;
+  font-size: 24px
 }

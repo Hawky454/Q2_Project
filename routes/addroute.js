@@ -11,17 +11,20 @@ router.get('/add', (req, res) => {
 });
 
 router.post('/add', (req, res, next) => {
-  console.log(true);
+  console.log('WTF, Why is this not WORKING?');
     knex('cellar')
     .insert({
         //left side is database columns, right side is 'names' in ejs file
         image: req.body.imgUrl,
+        age: req.body.age,
         brand: req.body.brand,
+        price: req.body.price,
         blend: req.body.blend,
         weight: req.body.weight,
         purchased: req.body.date,
-        age: req.body.age,
-
+        isAvailable: req.body.available,
+        source: req.body.source,
+        rating: req.body.rating
     }, '*')
 
     .then(() => {
