@@ -132,7 +132,7 @@ img {
   padding-top: 115px;
 }
 
-.edit-btn {
+.column2 .edit-btn {
   margin-bottom: 40px;
   margin-right: 10px;
 }
@@ -171,7 +171,7 @@ img {
   font-size: 24px
 }
 
-/*Open page*/
+/*Open page javascript populated*/
 
 .open-card-child {
   display: flex;
@@ -180,6 +180,19 @@ img {
   border: 3px solid white;
   margin-top: 50px;
   margin-left: 20%;
+  background-color: black;
+  border-radius: 10px;
+  /* like #403a2f & #2d180c* & #534335 #483557 */
+}
+
+/* Pipes page javascript populated*/
+
+.pipes-card-child {
+  display: flex;
+  width: 100%;
+  height: 420px;
+  border: 3px solid white;
+  margin-top: 50px;
   background-color: black;
   border-radius: 10px;
   /* like #403a2f & #2d180c* & #534335 #483557 */
