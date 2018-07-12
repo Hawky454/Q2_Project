@@ -15,11 +15,11 @@ exports.seed = function(knex, Promise) {
           rating: 5
         },
         {
-          image: 'https://c647068.ssl.cf2.rackcdn.com/products/002-203-2355_4.jpg',
-          brand: 'Neerup',
-          pipemaker: 'P. Jeppesen',
-          year: 2018,
-          price: 160,
+          image: 'https://c647068.ssl.cf2.rackcdn.com/products/002-361-0101.jpg',
+          brand: 'Ivarsson',
+          pipemaker: 'Nanna Ivarsson',
+          year: 2017,
+          price: 460,
           smooth: true,
           sandblasted: false,
           source: 'Smoking Pipes',
@@ -37,12 +37,12 @@ exports.seed = function(knex, Promise) {
           rating: 5
         },
         {
-          image: 'https://c647068.ssl.cf2.rackcdn.com/products/002-034-8524.5786.jpg',
+          image: 'https://c647068.ssl.cf2.rackcdn.com/products/002-034-8120.jpg',
           brand: 'Stanwell',
           pipemaker: 'Tom Eltang',
           year: 2015,
           price: 65,
-          smooth: false,
+          smooth: true,
           sandblasted: false,
           source: 'Pipes & Cigars',
           rating: 3
@@ -59,7 +59,7 @@ exports.seed = function(knex, Promise) {
           rating: 3.5
         },
         {
-          image: 'https://c647068.ssl.cf2.rackcdn.com/products/002-600-0028_4.jpg',
+          image: 'https://c647068.ssl.cf2.rackcdn.com/products/002-600-0012.jpg',
           brand: 'Shekita',
           pipemaker: 'Konstantin Shekita',
           year: 2018,
@@ -70,7 +70,7 @@ exports.seed = function(knex, Promise) {
           rating: 5
         },
         {
-          image: 'https://c647068.ssl.cf2.rackcdn.com/products/002-713-0017.jpg',
+          image: 'https://c647068.ssl.cf2.rackcdn.com/products/002-713-0006.jpg',
           brand: 'Liskey',
           pipemaker: 'Steven Liskey',
           year: 2017,

@@ -71,11 +71,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
       console.log(cellarRating);
       //edit button
       let cellarEdit = document.createElement('button');
-      cellarEdit.setAttribute('class', 'edit-btn');
+      cellarEdit.setAttribute('class', 'editme');
       cellarEdit.innerText = 'Edit Blend';
       //delete button
       let cellarDelete = document.createElement('button');
-      cellarDelete.setAttribute('class', 'delete-btn');
+      cellarDelete.setAttribute('class', 'deleteme');
       cellarDelete.innerText = 'Delete';
 
       column1.appendChild(cellarImage);

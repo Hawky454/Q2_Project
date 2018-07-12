@@ -53,11 +53,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
       openRating.innerText = `Rating: ${openBaccy.rating} out of 5 stars`;
 
       let openEdit = document.createElement('button');
-      openEdit.setAttribute('class', 'edit-button');
+      openEdit.setAttribute('class', 'editme');
       openEdit.innerText = 'Edit Blend';
 
       let openDelete = document.createElement('button');
-      openDelete.setAttribute('class', 'delete-btn');
+      openDelete.setAttribute('class', 'deleteme');
       openDelete.innerText = 'Delete';
 
       row1.appendChild(openImage);

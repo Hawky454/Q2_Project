@@ -15,10 +15,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
        side1.setAttribute('class', 'side1');
 
        let side2 = document.createElement('section');
-       side2.setAttribute('class', 'side1');
+       side2.setAttribute('class', 'side2');
 
        let pipesImage = document.createElement('img');
        pipesImage.setAttribute('src', pipesData.image);
+       pipesImage.setAttribute('class', 'pipes-image');
 
        let pipesBrand = document.createElement('h4');
        pipesBrand.innerText = `Brand: ${pipesData.brand}`;
@@ -33,11 +34,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
        pipesPrice.innerText = `Price: ${pipesData.price.toFixed(2)}`;
 
        let pipesEdit = document.createElement('button');
-       pipesEdit.setAttribute('class', 'edit-button');
+       pipesEdit.setAttribute('class', 'editthis');
        pipesEdit.innerText = 'Edit Pipes';
 
        let pipesDelete = document.createElement('button');
-       pipesDelete.setAttribute('class', 'delete-btn');
+       pipesDelete.setAttribute('class', 'deletethis');
        pipesDelete.innerText = 'Delete Pipes';
 
        let sandblasted = document.createElement('h4');
@@ -54,13 +55,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
        side1.appendChild(pipesImage);
-       side1.appendChild(pipesBrand);
-       side1.appendChild(pipeMaker);
-       side1.appendChild(pipesYear);
-       side1.appendChild(pipesPrice);
 
        side2.appendChild(pipesEdit);
        side2.appendChild(pipesDelete);
+       side2.appendChild(pipesBrand);
+       side2.appendChild(pipeMaker);
+       side2.appendChild(pipesYear);
+       side2.appendChild(pipesPrice);
        side2.appendChild(sandblasted);
        side2.appendChild(smooth);
        side2.appendChild(pipesSource);

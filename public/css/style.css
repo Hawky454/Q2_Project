@@ -25,9 +25,13 @@ body {
   position: relative;
   min-height: 100vh;
   min-width: 100vw;
-  background-color: black;
-  opacity: 0.65;
+  background-color: rgba(0,0,0, 0.7);
+
 }
+
+/* .backdrop * {
+  opacity: 1.0 !important;
+} */
 
 .cellar-title {
   width: 380px;
@@ -72,6 +76,7 @@ button:focus {
   margin-top: 75px;
   margin-left: 25%;
   background-color: black;
+  opacity: .5;
   font-weight: bolder;
   font-size: 24px;
 }
@@ -83,14 +88,14 @@ footer {
   margin-left: 10px;
   margin-bottom: 10px;
 }
-
+/*
 .home-email {
   background-color: #f3f3f3;
   width: 315px;
   height: 40px;
   color: black;
   border-radius: 5px;
-}
+} */
 
 /* .home-btn {
   height: 40px;
@@ -100,36 +105,38 @@ footer {
   font-size: 14px;
 }
 
-/*Cellar card populated by js*/
+/*Cellar tobacco page card populated by js*/
 
 img {
   width: 150px;
   height: 150px;
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 10px;
   margin-bottom: 15px;
+  box-shadow: 5px 5px #4b0303;
 }
 
 .cellar-card-child {
   display: flex;
+  justify-content: space-around;
   width: 800px;
-  height: 420px;
-  border: 3px solid white;
+  height: 450px;
+  border-bottom: 3px solid white;
   margin-top: 50px;
   margin-left: 20%;
-  background-color: black;
-  border-radius: 10px;
-  /* like #403a2f & #2d180c* & #534335 #483557 */
+  background-color: transparent;
+
 }
 
 .column1 {
-  width: 490px;
-  padding: 18px;
+  width: 350px;
+  padding-top: 20px;
 }
 
 .column2 {
-  width: 305px;
-  padding-top: 115px;
+  width: 350px;
+  padding-top: 76px;
+  padding-left: 30px;
 }
 
 .column2 .edit-btn {
@@ -137,7 +144,7 @@ img {
   margin-right: 10px;
 }
 
-/* end of javascript populated cards */
+/* end of javascript populated cards (for now)*/
 
 .or {
   width: 200px;
@@ -167,33 +174,82 @@ img {
   margin-top: 75px;
   margin-left: 25%;
   background-color: black;
+  opacity: .5;
   font-weight: bolder;
   font-size: 24px
+
 }
 
-/*Open page javascript populated*/
+/*Open Baccy page javascript populated*/
 
 .open-card-child {
   display: flex;
+  justify-content: space-around;
   width: 800px;
-  height: 420px;
-  border: 3px solid white;
+  height: 450px;
+  border-bottom: 3px solid white;
   margin-top: 50px;
   margin-left: 20%;
-  background-color: black;
-  border-radius: 10px;
-  /* like #403a2f & #2d180c* & #534335 #483557 */
+  background-color: transparent;
 }
 
-/* Pipes page javascript populated*/
+.row1 {
+  width: 350px;
+  padding-top: 20px;
+}
+
+.row2 {
+  width: 350px;
+  padding-top: 76px;
+  padding-left: 30px;
+}
+/*Both editme & delete me work on the open and cellar buttons*/
+.deleteme {
+  background-color: red;
+  margin-bottom: 64px;
+  margin-left: 10px;
+  border: none;
+}
+.editme {
+  background-color: #007bff;
+  margin-bottom: 64px;
+  border: none;
+}
+
+/* mypipes page javascript populated*/
 
 .pipes-card-child {
   display: flex;
+  justify-content: space-around;
   width: 100%;
-  height: 420px;
-  border: 3px solid white;
-  margin-top: 50px;
-  background-color: black;
-  border-radius: 10px;
-  /* like #403a2f & #2d180c* & #534335 #483557 */
+  height: 492px;
+  border-bottom: 3px solid white;
+  margin-top: 200px;
+  background-color: transparent;
+}
+.pipes-image {
+  width: 815px;
+  height:467px;
+}
+.side1 {
+  height: 471px;
+  width: 605px;
+}
+
+.side2 {
+  height: 471px;
+  width: 540px;
+  padding-top: 5px;
+  padding-left: 143px;
+}
+/*deletethis & editthis are the buttons for the pipes page*/
+.editthis {
+background-color: #007bff;
+margin-bottom: 60px;
+border: none;
+}
+.deletethis {
+background-color: red;
+margin-left: 10px;
+border: none;
 }
