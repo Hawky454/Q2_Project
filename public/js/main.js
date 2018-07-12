@@ -69,6 +69,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
       let cellarRating = document.createElement('h4');
       cellarRating.innerText = `Rating: ${cellarObject.rating} out of 5 stars`;
       console.log(cellarRating);
+      //edit button
+      let cellarEdit = document.createElement('button');
+      cellarEdit.setAttribute('class', 'edit-btn');
+      cellarEdit.innerText = 'Edit Blend';
+      //delete button
+      let cellarDelete = document.createElement('button');
+      cellarDelete.setAttribute('class', 'delete-btn');
+      cellarDelete.innerText = 'Delete';
 
       column1.appendChild(cellarImage);
       column1.appendChild(cellarBrand);
@@ -77,10 +85,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
       column1.appendChild(cellarAge);
       column1.appendChild(cellarWeight);
 
+      column2.appendChild(cellarEdit);
+      column2.appendChild(cellarDelete);
       column2.appendChild(cellarAvailability);
       column2.appendChild(cellarPrice);
       column2.appendChild(cellarSource);
       column2.appendChild(cellarRating);
+
 
       cellarCardChild.appendChild(column1);
       cellarCardChild.appendChild(column2);

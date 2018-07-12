@@ -1,6 +1,5 @@
 'use strict';
-/* eslint-env node */
-/* eslint-disable no-use-before-define */
+
 let router = require('express').Router();
 let env = process.env.NODE_ENV || 'development';
 let config = require('../knexfile')[env];
@@ -11,7 +10,6 @@ router.get('/add', (req, res) => {
 });
 
 router.post('/add', (req, res, next) => {
-  console.log('WTF, Why is this not WORKING?');
     knex('cellar')
     .insert({
         //left side is database columns, right side is 'names' in ejs file

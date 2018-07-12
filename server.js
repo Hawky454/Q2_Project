@@ -28,9 +28,14 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-app.get('/', (req, res, next) => {
-    res.render('add');
-});
+// app.get('/', (req, res, next) => {
+//     res.render('add');
+// });
+
+//try this
+// app.get('/', (req, res, next) => {
+//     res.render('open');
+// });
 
 app.use(cellar);
 app.use(open);

@@ -35,8 +35,8 @@ body {
   color: white;
 }
 
+
 .nav-bar {
-  border: 1px solid white;
   float: right;
   width: 950px;
   padding-top: 20px;
@@ -53,13 +53,10 @@ button {
   font-weight: bolder;
 }
 
-.active {
-  /* border-bottom: 5px solid blue; */
-}
-
 button:focus {
   outline: 0;
 }
+
 
 .sign-up {
   width: 200px;
@@ -95,15 +92,15 @@ footer {
   border-radius: 5px;
 }
 
-.home-btn {
+/* .home-btn {
   height: 40px;
-}
+} */
 
 footer {
   font-size: 14px;
 }
 
-/*Cellar card*/
+/*Cellar card populated by js*/
 
 img {
   width: 150px;
@@ -117,11 +114,10 @@ img {
   display: flex;
   width: 800px;
   height: 420px;
-  /* opacity: 2.9; */
   border: 3px solid white;
   margin-top: 50px;
   margin-left: 20%;
-  background-color: #534335;
+  background-color: black;
   border-radius: 10px;
   /* like #403a2f & #2d180c* & #534335 #483557 */
 }
@@ -133,8 +129,15 @@ img {
 
 .column2 {
   width: 305px;
-  padding-top: 181px;
+  padding-top: 115px;
 }
+
+.edit-btn {
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+/* end of javascript populated cards */
 
 .or {
   width: 200px;
@@ -147,6 +150,7 @@ img {
 .sign-in {
   padding-left: 217px;
 }
+
 /*h2 sign up*/
 .sign-up-heading {
   width: 200px;
