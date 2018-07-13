@@ -12,7 +12,7 @@ router.get('/add', (req, res) => {
 router.post('/add', (req, res, next) => {
     knex('cellar')
     .insert({
-        //left side is database columns, right side is 'names' in ejs file
+        //left side is database columns, right side is 'names' in add.ejs file
         image: req.body.imgUrl,
         age: req.body.age,
         brand: req.body.brand,
