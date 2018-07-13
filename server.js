@@ -1,5 +1,5 @@
 'use strict'
-
+console.log('hey we are here');
 let fs = require('fs');
 let path = require('path');
 let knexPath = path.join(__dirname, 'knexfile.js');
@@ -17,7 +17,7 @@ let cellar = require('./routes/cellarroute.js');
 let open = require('./routes/openroute.js');
 let add = require('./routes/addroute');
 let pipes = require('./routes/pipesroute');
-
+console.log('now we are here');
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -57,6 +57,7 @@ app.use((err, _req, res, _next) => {
     }
 });
 
+console.log('now we are all the way down here');
 app.listen(port, function () {
     console.log('Listening on port', port);
 });
