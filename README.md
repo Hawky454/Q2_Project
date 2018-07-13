@@ -94,6 +94,8 @@ As a user, I need to be able to search for open (current use) tobaccos
 As a user, I need to be able to see the total number of cellared tobaccos
 As a user, I need to be able to see the total number of opened tobaccos
 As a user, I need to be able to see the total number of pipes
+
+
 # Wireframe
 ![WireframeQ2](https://github.com/Hawky454/Q2_Project/blob/master/public/images/Homepage.png)
 
