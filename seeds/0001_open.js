@@ -29,7 +29,7 @@ exports.seed = function(knex, Promise) {
         rating: 4.5
       },
       {
-        image: 'https://i.pinimg.com/564x/e7/4d/f8/e74df82a3e389da0c307d235251c1f23--belfast-ireland-northern-ireland.jpg',
+        image: 'https://www.havanahouse.co.uk/wp-content/uploads/p-18901-murrays_warrior_plug_tobacco_50g.jpg',
         brand: 'Murray\'s',
         blend: 'Warrior Plug',
         weight: '1.76oz',
@@ -53,7 +53,7 @@ exports.seed = function(knex, Promise) {
         rating: 5
       },
       {
-        image: 'https://c647068.ssl.cf2.rackcdn.com/products/003-293-0044.jpg',
+        image: 'http://s3.amazonaws.com/tobrev/t/bf8190610bf1b9fd0bbf.png',
         brand: 'Dan Tobacco',
         blend: 'Salty Dogs Plug',
         weight: '1.76oz',
@@ -77,7 +77,7 @@ exports.seed = function(knex, Promise) {
         rating: 5
       },
       {
-        image: 'https://c647068.ssl.cf2.rackcdn.com/products/003-744-0002.jpg',
+        image: 'https://mac-baren.com/uploads/product/photo/165/side_St.Bruno_Flake.png',
         brand: 'Ogdens',
         blend: 'St. Bruno Ready Rubbed',
         weight: '1.76oz',
@@ -89,7 +89,7 @@ exports.seed = function(knex, Promise) {
         rating: 5
       },
       {
-        image: 'http://s3.amazonaws.com/tobrev/t/revor-plug.gif',
+        image: 'https://smokingjacketblog.files.wordpress.com/2014/10/revor-plug-pipe-tobacco.jpg',
         brand: 'Gawith, Hogarth & Co.',
         blend: 'Revor Plug',
         weight: '1.76oz',

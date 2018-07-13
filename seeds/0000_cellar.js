@@ -100,7 +100,7 @@ exports.seed = function(knex, Promise) {
           rating: 5
         },
         {
-          image: 'https://c647068.ssl.cf2.rackcdn.com/products/003-744-0002.jpg',
+          image: 'https://mac-baren.com/uploads/product/photo/165/side_St.Bruno_Flake.png',
           brand: 'Ogdens',
           blend: 'St. Bruno Ready Rubbed',
           weight: '20lbs',
@@ -112,7 +112,7 @@ exports.seed = function(knex, Promise) {
           rating: 5
         },
         {
-          image: 'https://c647068.ssl.cf2.rackcdn.com/products/003-024-0021.jpg',
+          image: 'http://s3.amazonaws.com/tobrev/t/003-024-0021.jpg',
           brand: 'JF Germain',
           blend: 'Stonehaven',
           weight: '1lbs',
