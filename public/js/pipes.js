@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
        pipesYear.innerText = `Year: ${pipesData.year}`;
 
        let pipesPrice = document.createElement('h4');
-       pipesPrice.innerText = `Price: ${pipesData.price.toFixed(2)}`;
+       pipesPrice.innerText = `Price: $${pipesData.price.toFixed(2)}`;
 
        let pipesEdit = document.createElement('button');
        pipesEdit.setAttribute('class', 'editthis');
