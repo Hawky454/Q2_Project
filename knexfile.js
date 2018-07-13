@@ -8,7 +8,7 @@ module.exports = {
 
     production: {
       client: 'pg',
-      connection: 'postgres://tsnqvlpyygrron:4cc8d09ad27798c88357d247a4f8101a706f637c12b138cc5d0b096e70e4f9d4@ec2-54-163-236-188.compute-1.amazonaws.com:5432/d18los8ol5uttc', //need an address here
+      connection: 'postgres://eveqcjmwtbswym:1d05927c3bc53627b8c2559a5a06d7f260944d2ce046bec7359e33581240212c@ec2-54-227-240-7.compute-1.amazonaws.com:5432/des2s0dn4t34vs', //need an address here
     }
 
   };
