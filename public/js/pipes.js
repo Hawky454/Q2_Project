@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
        smooth.innerText = `Smooth: ${pipesData.smooth}`;
 
        let pipesSource = document.createElement('h4');
-       pipesSource.innerText = `Source ${pipesData.source}`;
+       pipesSource.innerText = `Source: ${pipesData.source}`;
 
        let pipesRating = document.createElement('h4');
        pipesRating.innerText = `Rating: ${pipesData.rating} out of 5 stars`;
