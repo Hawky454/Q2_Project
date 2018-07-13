@@ -2,10 +2,13 @@
 #The Tobacco Cellar.
 
 
-I would like to create an app that keeps track of users pipe and tobacco collections.  Believe it or not there is a decent size community of pipe smokers that collect a large quantity of high grade pipes and tobacco. Aged pipe tobacco improves with age and the value greatly increases, the older the better.  This app would allow users to quickly and easily keep track of their tobacco that they have opened for current use and of the tobacco they have sealed and stored for long term storage.  I would also like to have the option for users to keep track of their personal pipe collection.
+The Tobacco Cellar is designed to keep track of my cellared pipe tobacco & my pipe collection as well as the tobacco I currently have open and is in use.
+
+Believe it or not there is a decent size community of pipe smokers that collect and age large quantities of pipe tobacco.  Generally, any tobacco with plenty of natural sugars will age wonderfully. Blends go through a fermentation process in the tin, and will improve significantly over time, developing increasing complexity and a wine-like qualities that is hard to describe. I think pipe smoking is one of the most underrated pleasures in existence. If stored properly, a blend can continue to improve in the tin for up to 40 to 50 years before it starts to 'spoil'.
 
 * Who uses it?
 Pipe smokers… but of course…
+Until now the community has had no real good way of keeping track of their tobacco cellar and I thought it would be really cool to make an app for it.
 
 * What outputs do they need?
 
@@ -34,6 +37,8 @@ Pipes:
 2. Model
 3. Date of Purchase
 4. Date of Production (if known)
+5. Image (if provided)
+6. Pipemaker
 
 Each section of outputs will allow the user CRUD actions.
 
@@ -47,7 +52,7 @@ Input form for cellared tobacco:
 6. Cost ( in USD)
 7. Source (Where it was purchase)
 8. Rating (1 thru 5)
-9. Image (link)
+9. Image (url)
 
 Input form for Opened Tobacco (Currently in use);
 1. Brand
@@ -63,8 +68,10 @@ Input form for pipes:
 2. Model
 3. Date of Purchase
 4. Date of Production (if known)
+5. Image (url)
+6. pipeMaker
 
-I'll use some basic css boilerplate like Skeleton.
+I used Boostrap as my css framework but overall I used basic vanilla JavaScript throughout the app, however, I did experiment with ejs and I set up my 'add' form to allow it to populate the the database and respective page.
 
 #User Stories:
 As a user, I need to be able to identify the company (style/brand/logo)

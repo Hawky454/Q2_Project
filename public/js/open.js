@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       openAge.innerText = `Age: ${openBaccy.age}`;
 
       let openPrice = document.createElement('h4');
-      openPrice.innerText = `Price $${openBaccy.price.toFixed(2)}`;
+      openPrice.innerText = `Price: $${openBaccy.price.toFixed(2)}`;
 
       let openAvailability = document.createElement('h4');
       openAvailability.innerText = `Available: ${openBaccy.isAvailable}`;
