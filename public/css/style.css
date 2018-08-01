@@ -26,12 +26,7 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   background-color: rgba(0,0,0, 0.7);
-
 }
-
-/* .backdrop * {
-  opacity: 1.0 !important;
-} */
 
 .cellar-title {
   width: 380px;
